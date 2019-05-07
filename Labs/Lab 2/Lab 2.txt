@@ -1,0 +1,34 @@
+Lab Assignment 2
+
+In this lab assignment, you will write a program that processes native C++ arrays. You program will pass arrays to functions and returns them. You will be using pointers and references.
+
+Create the source file number_array.cpp and the header file number_array.h
+
+Create a function !?! findFirst(int value, !?!, int length) which accepts an integer array of numbers and returns a pointer to the first occurence of value. If no such value is found, the function is to return a null pointer.
+
+Create a function !?! findAll(int value, !?!, int length, int& numFound ) which accepts an integer array of numbers (in !?!) and returns a pointer to an array. The array is to be allocated in the function and is to contain pointers to all occurences of value in the array of integers.
+
+Create a function void printArray( !?!, int length ) that accepts an integer array of numbers of length.
+
+Create a function !?! append( !?!, !?! ) which takes two arrays: the first array (in the first argument) of size 4 by array pointer and the second array (in the second argument) of size 3 by reference and returns a pointer to an array of size 7. 
+You must use range loops in the function to loop over the two input arguments. The result array is to be allocated in the function and is to contain all numbers in increasing order from both arrays.
+
+Test your implementation with the supplied main function in the separate file main.cpp The main function will ask for an array size and will fill the array with random integers. It will then ask for a number to find. The arrays and the results will be printed.
+
+
+Example Run:
+
+Enter an array size (<100):
+7
+[ 1, 2, 7, 5, 5, 2, 1 ]
+Enter a value:
+2
+Found: 2 at 1
+0: 2 at 1      1: 2 at 5
+Append:
+[ 7, 7, 9, 4 ] + [ 5, 8, 1 ] = [ 7, 7, 9, 4, 5, 8, 1 ]
+
+
+
+You must hand-in exactly the three files: number_array.cpp and number_array.h in a zip archive. 
+Do not hand-in any other files or use any other type of archive. No word files or pdfs (or similar word processing files) will be accepted.
